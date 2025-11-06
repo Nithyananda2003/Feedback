@@ -197,7 +197,7 @@ export default function Dashboard() {
               { label: "Total Counties", value: totalCounties, icon: "🗺️", color: "from-blue-500 to-cyan-500" },
               { label: "Success Rate", value: `${successRate}%`, icon: "✓", color: "from-green-500 to-emerald-500" },
               { label: "Avg Duration", value: `${avgTime}s`, icon: "⏱️", color: "from-purple-500 to-pink-500" },
-              { label: "Code Quality", value: "A+", icon: "⭐", color: "from-yellow-500 to-orange-500" },
+              { label: "Code Quality", value: "To be checked", icon: "⭐", color: "from-yellow-500 to-orange-500" },
             ].map((kpi, idx) => (
               <Card
                 key={idx}
